@@ -12,8 +12,6 @@ import (
 	"sync"
 )
 
-// Add imports.
-
 func main() {
 	values := make(chan int)
 	shutdown := make(chan struct{})
